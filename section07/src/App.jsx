@@ -26,15 +26,11 @@ function App() {
   });
 
   // 3. 언마운트 : 죽음
-  
-
-
-
 
   // 두번째 인수인 배열의 값이 변경되는 경우 첫번째 인수인 callback 함수 호출
-  // useEffect(() => {
-  //   console.log(`count : ${count} / input : ${input}`);
-  // }, [count, input]);
+  useEffect(() => {
+    console.log(`count : ${count} / input : ${input}`);
+  }, [count, input]);
   // 의존성 배열
   // dependency array
   // deps
